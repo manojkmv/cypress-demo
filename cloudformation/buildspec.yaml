@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+    install:
+        runtime-versions:
+            nodejs: 12
+    pre_build:
+        commands:
+            - echo npm install start
+            - npm i
+            - echo npm install complete
+            - node utility/cypress.env.js
+    build:
+        commands:
+            - echo cypress test start
+            - npx cypress run --headless --record --key b732cb39-cc99-486a-bdcc-fbda040892d1
+            - echo cypress test completed.
