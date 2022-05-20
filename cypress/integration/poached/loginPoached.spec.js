@@ -7,7 +7,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 describe("Poster Login",function() {   
-it("Poached login page", function () {
+it("Poster login page", function () {
 
 //Visit the URL
 cy.visit(process.env.URL)
