@@ -12,5 +12,5 @@ phases:
     build:
         commands:
             - echo cypress test start
-            - npx cypress run
+            - npx cypress run --headless
             - echo cypress test completed.
