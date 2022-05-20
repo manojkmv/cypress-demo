@@ -9,7 +9,6 @@ phases:
             - echo npm install start
             - npm i
             - echo npm install complete
-            - printenv
             - node utility/cypress.env.js
     build:
         commands:
