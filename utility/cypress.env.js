@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const env = {
-    "video": false,
+    "video": true,
     "projectId":"ftk5gk",
     "reporter": "../node_modules/mochawesome/src/mochawesome.js",
     "reporterOptions": {
