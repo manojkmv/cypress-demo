@@ -14,5 +14,5 @@ phases:
     build:
         commands:
             - echo cypress test start
-            - npx cypress run --headless
+            - npx cypress run --headless --record --key b732cb39-cc99-486a-bdcc-fbda040892d1
             - echo cypress test completed.
